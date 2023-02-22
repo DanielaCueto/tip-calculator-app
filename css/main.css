@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+  background-color: hsl(185deg, 41%, 84%);
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.title {
+  color: hsl(186deg, 14%, 43%);
+  max-width: 150px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  box-sizing: border-box;
+  background-color: hsl(0deg, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+.card__form1 {
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.card__tipContainer {
+  padding-left: 20px;
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+}
+.card__tipContainer--buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card__numPeople {
+  display: flex;
+  flex-direction: column;
+}
+.card__numPeople--numPeopleForm {
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+.card__amount {
+  box-sizing: border-box;
+  color: hsl(189deg, 41%, 97%);
+  font-size: 0.7rem;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: hsl(183deg, 100%, 15%);
+  display: flex;
+  flex-direction: column;
+}
+.card__amount--tipAmount {
+  display: flex;
+  justify-content: space-between;
+}
+.card__amount--totalAmount {
+  display: flex;
+  justify-content: space-between;
+}
+.card__amount--resetBtn {
+  width: 300px;
+  height: 40px;
+  margin: 20px 20px;
+  border: none;
+  background-color: hsl(172deg, 67%, 45%);
+  color: hsl(189deg, 41%, 97%);
+}
+
+button {
+  box-sizing: border-box;
+  font-family: "Space mono", monospace;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  background-color: hsl(183deg, 100%, 15%);
+  color: hsl(189deg, 41%, 97%);
+  padding: auto;
+  border-radius: 5px;
+  border: none;
+}
+
+#bill #numPeople {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=main.css.map */

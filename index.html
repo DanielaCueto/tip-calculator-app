@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>TIP CALCULATOR APP</title>
+  </head>
+  <body>
+    <h2 class="title">SPLI<br>TTER</h2>
+    <main class="card">
+      <form action="" class="card__form1">
+        <label for="bill">Bill</label>
+        <input
+          type="text"
+          placeholder="$"
+          id="bill"
+          name="bill"
+          class="card__form1--bill"
+        />
+      </form>
+      <div class="card__tipContainer">
+        <span>Select Tip %</span>
+        <div class="card__tipContainer--buttons">
+          <button>5%</button>
+          <button>10%</button>
+          <button>15%</button>
+          <button>25%</button>
+          <button>50%</button>
+          <button>Custom</button>
+        </div>
+      </div class="card__numPeople">
+      <form action="" class="card__numPeople--numPeopleForm">
+        <label for="numPeople">Number of People</label>
+        <input type="text" name="numPeople" id="numPeople" />
+      </form>
+      <div class="card__amount">
+        <div class="card__amount--tipAmount">
+          <span>tip Amount / person</span>
+          <span id="tipQuantity">$4.27</span>
+        </div>
+        <div class="card__amount--totalAmount">
+          <span> total / person</span>
+          <span id="totalQuantity">$32.79</span>
+        </div>
+        <button class="card__amount--resetBtn" id="btnReset">RESET</button>
+      </div>
+    </main>
+  </body>
+</html>
